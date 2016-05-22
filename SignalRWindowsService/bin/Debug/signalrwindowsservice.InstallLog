@@ -1,0 +1,164 @@
+﻿Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Creating EventLog source SignalRChat in log Application...
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Restoring event log to previous state for source SignalRChat.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Creating EventLog source SignalRChat in log Application...
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Restoring event log to previous state for source SignalRChat.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Service SignalRChat has been successfully installed.
+Creating EventLog source SignalRChat in log Application...
+Committing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Creating EventLog source SignalRChat in log Application...
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Restoring event log to previous state for source SignalRChat.
+Uninstalling assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Removing EventLog source SignalRChat.
+Service SignalRChat is being removed from the system...
+Service SignalRChat was successfully removed from the system.
+Attempt to stop service SignalRChat.
+Uninstalling assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Removing EventLog source SignalRChat.
+Warning: The source SignalRChat is not registered on the local machine.
+Service SignalRChat is being removed from the system...
+Service SignalRChat was successfully removed from the system.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Creating EventLog source SignalRChat in log Application...
+Rolling back assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Restoring event log to previous state for source SignalRChat.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Service SignalRChat has been successfully installed.
+Creating EventLog source SignalRChat in log Application...
+Committing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Uninstalling assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Removing EventLog source SignalRChat.
+Service SignalRChat is being removed from the system...
+Service SignalRChat was successfully removed from the system.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Service SignalRChat has been successfully installed.
+Creating EventLog source SignalRChat in log Application...
+Committing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Uninstalling assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Removing EventLog source SignalRChat.
+Service SignalRChat is being removed from the system...
+Service SignalRChat was successfully removed from the system.
+Installing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe
+Installing service SignalRChat...
+Service SignalRChat has been successfully installed.
+Creating EventLog source SignalRChat in log Application...
+Committing assembly 'C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.InstallLog
+   assemblypath = C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\SignalRWindowsService\bin\Debug\signalrwindowsservice.exe

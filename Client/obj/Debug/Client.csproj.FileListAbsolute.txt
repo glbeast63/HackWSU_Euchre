@@ -1,0 +1,6 @@
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\bin\Client.dll.config
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\bin\Client.dll
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\bin\Client.pdb
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\obj\Debug\Client.dll
+C:\Users\Charlie\Downloads\Self-Hosting SignalR in a Windows Service (1)\C#\Client\obj\Debug\Client.pdb

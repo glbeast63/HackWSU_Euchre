@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Euchre!</title>
+</head>
+<body background="BACKGROUND.jpg">
+    
+    <h1><center>Euchre</center></h1>
+    <center><table style="width:1000px">
+        <tr>
+            <td style="width:150px">
+                <center>
+                <h2>Team 1:</h2>
+                </br>
+                0
+                </br>
+                <h3>Pairs:</h3>
+                </br>
+                0
+                </center>
+            </td>
+            <td>
+                <table style="width:692px"; background-color:BLACK; border-width:25%" align="center" background="Table.jpg">
+                    <tr style="height:96px">
+                        <td style="width:173px">  
+                        </td>
+                        <td style="width:346px">
+                            <center>Test</center>
+                        </td>
+                        <td style="width:173px">
+                        </td>
+                    </tr>
+                            
+                    <tr style="height:500px">
+                        <td style="width:173px">
+                            <center>Test</center> 
+                        </td>
+                        <td style="width:400px">
+                            <center><img src="cards\FACEDOWN_RED.jpg"><img src="cards\FACEDOWN_RED.jpg">
+                            </br>
+                            <img src="cards\FACEDOWN_RED.jpg"><img src="cards\FACEDOWN_RED.jpg"></center>
+                        </td>
+                        <td style="width:173px">
+                            <center>Test</center> 
+                        </td>
+                    </tr>
+                    
+                    <tr style="height:96px">
+                        <td style="width:173px">  
+                        </td>
+                        <td style="width:346px">
+                            <center>Test</center>
+                        </td>
+                        <td style="width:173px">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width:150px">
+                <center>
+                    <h2>Team 2:</h2>
+                    </br>
+                    0
+                    </br>
+                    <h3>Pairs:</h3>
+                    </br>
+                    0
+                </center>
+            </td>
+        </tr>
+    </table></center>
+           
+    </br>
+    </br>
+<center><img src="cards\H_A.jpg"><img src="cards\H_K.jpg"><img src="cards\H_Q.jpg"><img src="cards\H_j.jpg"><img src="cards\H_ten.jpg"></center>
+
+    </br>
+    </br>
+    
+    <center><Table style="width:1000px">
+        <tr>
+            <td>
+                <center>
+                    <img src="cards\buttons\pass.jpg">
+                    </br>
+                    <img src="cards\buttons\Pick_up.jpg">
+                    </br>
+                    <img src="cards\buttons\Go_alone.jpg">
+                </center>
+            </td>
+             
+            <td>
+                <center>
+                    <img src="cards\buttons\CUB.jpg">
+                    <img src="cards\buttons\D.jpg">
+                    </br>
+                    <img src="cards\buttons\HEARTS.jpg">
+                    <img src="cards\buttons\SPADE.jpg">
+                </center>
+            </td>
+            
+            <td>
+                <img src="cards\FACEDOWN_RED.jpg">
+            </td>
+        </tr>
+    </table></center>
+    
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.0.3.min.js"></script>
+    <script src="http://hackwsu.ddns.net:8080/signalr/hubs"></script>
+    
+    
+    <script type="text/javascript">
+        $(function () {
+        //Set the hubs URL for the connection
+            $.connection.hub.url = "http://hackwsu.ddns.net:8080/signalr";
+
+            // Declare a proxy to reference the hub.
+            var game = $.connection.myHub;
+
+            // Create a function that the hub can call to broadcast messages.
+            game.client.addMessage = function (name, message) {
+                // Html encode display name and message.
+                var encodedName = $('<div />').text(name).html();
+            };
+            // Get the user name and store it to prepend to messages.
+            $('#displayname').val(prompt('Enter your name:', ''));
+            // Start the connection.
+            $.connection.hub.start().done(function () {
+                /*$('#sendmessage').click(function () {
+                    // Call the Send method on the hub.
+                    game.server.send($('#displayname').val(), $('#message').val());
+                    // Clear text box and reset focus for next comment.
+                    $('#message').val('').focus();
+                });*/
+            });
+        });
+    </script>
+</body>
+</html>

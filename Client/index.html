@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's play</title>
+</head>
+<body background="BACKGROUND.jpg">
+	
+	<h1><center>Let's Play</center></h1>
+	
+	<table style="width:375px; background-color:BLACK; border-width:25%" align="center" background="Table.jpg">
+		<tr style="height:275px">
+			<td>
+				</br>
+				</br>
+				<h2><center>Enter Username:</center></h2>
+				</br>
+					<center><form id="UserName" accept-charset="ISO-8859-1">
+					<input type="text" name="Username"></center><br>
+			</td>
+		</tr>
+		<tr style="height:100px">
+			<td>
+				<center><form id="Ready">
+				<input type="button" value="Ready" name="Ready"></center>
+			</td>
+		</tr>
+	</table>
+
+	<script src="Scripts/jquery-1.6.4.min.js"></script>
+	<script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+	<script src="signalr/hubs"></script>
+	
+	<script type="text/javascript">
+		$(function () {
+			var user = $.connection.userHub;
+			
+			user.client.playCards = function (name)
+				{
+					var encodeName = $('div />').text(username).html();
+				};
+				
+		};
+	</script>
+</body>
+</html>
